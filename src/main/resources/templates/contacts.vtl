@@ -1,0 +1,5 @@
+<h1>Contacts</h1>
+
+#foreach( $contact in $allContacts)
+  <a href="contacts/$contact.getId()">$contact.getFirstName() $contact.getLastName()</a>
+#end
